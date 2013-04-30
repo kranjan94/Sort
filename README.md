@@ -4,7 +4,7 @@ Sort
 Repo of Java implementations of sorting algorithms. Each sort takes a LinkedList<Comparable> of Comparable objects and returns a LinkedList<Comparable> of the sorted input list.
 
 Each class stores its sort as a public method:
-  public static LinkedList<Comparable> sort(LinkedList<Comparable> input)
+  public static LinkedList<Comparable> sort(LinkedList<Comparable> input)\n
 Thus, the sorts may be utilized by other classes via (for instance):
   LinkedList<Comparable> sorted_list = QuickSort.sort(unsorted_list);
 
