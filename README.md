@@ -10,6 +10,6 @@ Thus, the sorts may be utilized by other classes via (for instance):
 
 The Sort class tests algorithms by generating a list of random non-negative integers and sorting them.
 Input format: java Sort <name> <size> <range>
-   <name>:    "merge", "insertion", "quick", etc.
-	 <size>:    number of values to generate and sort
-	 <range>:   upper bound on positive integers to generate
+<name>: "merge", "insertion", "quick", etc.
+<size>: number of values to generate and sort
+<range>: upper bound on positive integers to generate
