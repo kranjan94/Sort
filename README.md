@@ -20,9 +20,10 @@ name: "merge", "insertion", "quick", etc.
 size: number of values to generate and sort  
 range: upper bound on positive integers to generate  
 
-To test all algorithms:
-	java Sort full trials range
+The full test performs each algorithm a number of times on randomly generated sets of 10, 100, 1000, and 10000 integers and records the average running time of the algorithm for each sample size.  
+To test all algorithms:  
+
+    java Sort full trials range
 
 trials: number of trials to use for each sample size; 30 by default  
 range: upper bound on positive integers to generate; 100 by default  
-The full test performs each algorithm a number of times on randomly generated sets of 10, 100, 1000, and 10000 integers and records the average running time of the algorithm for each sample size.
