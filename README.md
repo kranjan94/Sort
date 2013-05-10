@@ -10,11 +10,19 @@ Thus, the sorts may be utilized by other classes via (for instance):
 
     LinkedList<Comparable> sorted_list = QuickSort.sort(unsorted_list);
 
-The Sort class tests algorithms by generating a list of random non-negative integers and sorting them.
-Input format: 
+####Testing
+The Sort class tests algorithms in two ways: individually, by generating, printing, and sorting a list of randomly generated integers; or by performing a detailed test of all algorithms with varying sample size.  
+To test a single algorithm:
 
     java Sort name size range
     
 name: "merge", "insertion", "quick", etc.  
-size: number of values to generate and sort
-range: upper bound on positive integers to generate
+size: number of values to generate and sort  
+range: upper bound on positive integers to generate  
+
+To test all algorithms:
+	java Sort full trials range
+
+trials: number of trials to use for each sample size; 30 by default  
+range: upper bound on positive integers to generate; 100 by default  
+The full test performs each algorithm a number of times on randomly generated sets of 10, 100, 1000, and 10000 integers and records the average running time of the algorithm for each sample size.
